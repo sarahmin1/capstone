@@ -50,7 +50,7 @@ html, body {
 
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
     .story {
-        width: 55%;
+        width: 50%;
         padding-top: 30px;
         padding-bottom: 20px;
     }
