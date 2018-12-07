@@ -16,27 +16,42 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-size: 16px;
-    height: 100%;
-    margin: 0;
+    font-size: 22px;
+    /* height: 100%;
+    margin: 0; */
 }
 
-.bg {
-    /* The image used */
-    background-image: url("img_girl.jpg");
-    /* Full height */
-    height: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.story {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.headline img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    /* So that it will be responsive */
 }
 
 /* Tablet/Desktop overrides */
 @media(min-width: 681px) {
+
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+    .story {
+        width: 75%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        text-align: justify;
+    }
 }
 
 @media(min-width: 729px) {
+
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+    .story {
+        width: 55%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
 }
