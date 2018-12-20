@@ -7,13 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- first step to a responsive site -->
-    <title>HTML Skeleton</title>
+    <title>Behind the new 401(k): Student loan debt repayment</title>
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <!-- Your styles should be called here -->
     <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,7 +26,14 @@
   <body>
     <!-- YOUR CONTENT GOES HERE -->
     <div class="headline">
-      <img src="img/student.jpg"></div>
+      <img src="img/student.jpg">
+      <div id="title">
+        <h1>A country in crisis: How student loan repayments is getting the 401(k) treatment</h1>
+      </div>
+      <div id="byline">
+        <h4>By Sarah Min</h4>
+      </div>
+    </div>
 
     <div class="story">
       <p>Lorem ipsum dolor amet meditation fashion axe PBR&B, squid single-origin coffee franzen scenester af freegan. Jianbing synth cardigan hot chicken 3 wolf moon unicorn lyft offal. Vaporware snackwave chartreuse cloud bread. Flexitarian 8-bit
@@ -36,6 +44,17 @@
       <p>Offal activated charcoal celiac organic twee, cold-pressed freegan. Kogi art party lyft copper mug hexagon. Kickstarter roof party sriracha VHS, tote bag messenger bag tofu chillwave glossier. Wayfarers yuccie edison bulb gluten-free,
         gochujang tbh chartreuse post-ironic. Subway tile chia green juice, waistcoat post-ironic ugh disrupt live-edge flexitarian fingerstache copper mug.</p>
 
+      <!-- <section class="team text-center section-padding" id="team">
+        <div class="container">
+          <div class="col-md-12">
+            <h1 class="arrow">Current Student Loan Debt in the United States</h1>
+          </div> -->
+      <div class="row" style="margin-left: auto; margin-right: auto; width: 300px; text-align:right;">
+        <div id="myResults" style="margin-bottom:5px;"></div>
+      </div>
+      <!-- </div>
+      </section> -->
+
       <p>Bicycle rights shaman hashtag thundercats knausgaard raw denim hammock echo park trust fund chicharrones lo-fi bitters. Marfa chia skateboard, hell of franzen master cleanse everyday carry. Skateboard polaroid taiyaki try-hard cred. 8-bit
         normcore pabst unicorn.</p>
 
@@ -43,7 +62,10 @@
         kitsch, adaptogen etsy man braid truffaut master cleanse asymmetrical lumbersexual sustainable. Franzen jianbing trust fund kogi street art, leggings wayfarers raw denim four loko jean shorts chambray pinterest vice. Quinoa vinyl cronut
         polaroid gastropub, subway tile selvage vice enamel pin tote bag literally.</p>
 
-      <p>Palo santo tacos ethical retro intelligentsia direct trade taiyaki helvetica. Raclette whatever 8-bit kogi food truck leggings pour-over twee hell of heirloom art party keffiyeh hella bitters chicharrones. La croix plaid biodiesel chambray
+      <div class='youtube' data-youtube-id="bAb8KIhgVAI"></div>
+
+      <p>Palo santo tacos ethical retro intelligentsia direct trade taiyaki helvetica. Raclette whatever 8-bit kogi food truck leggings pour-over twee hell of heirloom art party keffiyeh hella bitters chicharrones. La croix plaid biodiesel
+        chambray
         jean shorts, tbh church-key hammock letterpress chartreuse organic banjo flexitarian shoreditch stumptown. Tumblr palo santo street art, taiyaki lyft next level williamsburg deep v cold-pressed twee fashion axe marfa. Copper mug street art
         brunch, hell of viral chicharrones ethical vinyl post-ironic normcore plaid cred cronut. Lyft mumblecore ethical, raw denim knausgaard chicharrones four loko wolf enamel pin. Literally tbh hoodie ethical taxidermy lumbersexual.</p>
 
@@ -55,7 +77,12 @@
     <!-- the jQuery library. You need this to be able to use jQuery ($) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
     <!-- Your javascript should be called here -->
+    <script src="https://watchjs.tcm.io/js/watch.min.js"></script>
+    <script src="main.js"></script>
+    <script src="clock.js"></script>
   </body>
 
 </html>
