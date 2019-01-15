@@ -38,5 +38,5 @@ var getDebt = setInterval(function () {
 		return parts.join(".");
 	}
 	var debtNum = currentDebt.toFixed(2);
-	document.getElementById("myResults").innerHTML = 'Student Loans : $' + numberWithCommas(debtNum);
+	document.getElementById("myResults").innerHTML = 'Student Loans (in trillions): $' + numberWithCommas(debtNum);
 }, seconds * 1000);
