@@ -28,7 +28,7 @@ h3 {
 }
 
 .story {
-    font-size: 1.37em;
+    font-size: 1.35em;
     max-width: 980px;
     margin: 0 auto;
     padding: 1em;
@@ -58,7 +58,7 @@ h3 {
 
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
     .story {
-        width: 52%;
+        width: 50%;
         padding-top: 90px;
         padding-bottom: 100px;
     }
