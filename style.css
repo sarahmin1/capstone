@@ -23,8 +23,8 @@ html, body {
 
 h3 {
     font-size: 1.4em;
-    color: #145ba8;
     font-family: 'Ubuntu', sans-serif;
+    text-align: left;
 }
 
 .story {
