@@ -59,4 +59,9 @@ h3 {
         padding-top: 120px;
         padding-bottom: 50px;
     }
+
+    .chart {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
